@@ -8,18 +8,18 @@ class Reproit < Formula
   on_macos do
     on_arm do
       url "https://github.com/ReproIt/reproit/releases/download/v0.1.0/reproit-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "10d09ae0fb9bde23763efc31401d186b30f2f4b2afb48c6933ff8aa4e7eadbd7"
+      sha256 "b870dc83a7a8f921d0245aa7ea4100600a488f87366c3105e994941e938d2a9d"
     end
     on_intel do
       url "https://github.com/ReproIt/reproit/releases/download/v0.1.0/reproit-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ba5bea06b2d20fa8a31961662b3ac13105220b0783cd2b86b078986bafe74a50"
+      sha256 "02fe9c4d2fc406a82c573074ae532557f274854586b50a14a5e8c720534f7d26"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ReproIt/reproit/releases/download/v0.1.0/reproit-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9a8c0a1d41737c9a784157b07a679f981e9d302ebec27c91d0e7cf0b2339739f"
+      sha256 "4a5e34a3152c5e5dcdc7a6b3b0d753c2ad37629c3d3afa80a470ce03e9377395"
     end
   end
 
