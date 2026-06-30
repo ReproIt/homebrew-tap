@@ -2,24 +2,24 @@
 class Reproit < Formula
   desc "Deterministic UI fuzzer: find a bug once, reproduce it forever"
   homepage "https://reproit.com"
-  version "0.1.86"
+  version "0.1.87"
   license "Elastic-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ReproIt/reproit/releases/download/v0.1.86/reproit-v0.1.86-aarch64-apple-darwin.tar.gz"
-      sha256 "c3e1f873de925724ee39a9168790a76754c7c622e4a7171945381e7184d0b1ca"
+      url "https://github.com/ReproIt/reproit/releases/download/v0.1.87/reproit-v0.1.87-aarch64-apple-darwin.tar.gz"
+      sha256 "4efa753efe6e930d68aa80a5778fbfa6de14ec6a898d8892294cb170cd254c5a"
     end
     on_intel do
-      url "https://github.com/ReproIt/reproit/releases/download/v0.1.86/reproit-v0.1.86-x86_64-apple-darwin.tar.gz"
-      sha256 "dbf40ef37649649c0c055050aee2b144460d822a458ea45780dc3104496d82a9"
+      url "https://github.com/ReproIt/reproit/releases/download/v0.1.87/reproit-v0.1.87-x86_64-apple-darwin.tar.gz"
+      sha256 "37af9cbf5dab336e1c792be23109b74ccdd171093b7332a4f29243418f4b3e88"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ReproIt/reproit/releases/download/v0.1.86/reproit-v0.1.86-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6d34414e82e1a9dd8d025355a56c1166ca9a8380994e85e72f4194f0b252f783"
+      url "https://github.com/ReproIt/reproit/releases/download/v0.1.87/reproit-v0.1.87-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5a04c3b7ad8f818e6216cb6b420a02d84155a3c6ecdfc69cb8e5d21d608d11dc"
     end
   end
 
